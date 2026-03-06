@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="description" content="G Events Tirupati — Premium event planners specialising in weddings, birthdays, haldi, baby showers & engagements in Tirupati, Andhra Pradesh. 10+ years, 1000+ events." />
+  <meta name="keywords" content="event planner Tirupati, wedding decorator Tirupati, birthday party planner, haldi ceremony, baby shower, G Events Tirupati" />
+  <meta name="author" content="G Events Tirupati" />
+  <meta property="og:title" content="G Events Tirupati — Premium Event Planners" />
+  <meta property="og:description" content="Tirupati's most trusted event specialists. Weddings, birthdays, haldi, engagements & more." />
+  <meta property="og:type" content="website" />
+  <title>G Events Tirupati | Premium Event Planners — Weddings, Birthdays & More</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       PRELOADER
+  ============================================================ -->
+  <div id="preloader" role="status" aria-label="Loading">
+    <div class="preloader-inner">
+      <div class="preloader-logo">G</div>
+      <div class="preloader-text">G Events Tirupati</div>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       CUSTOM CURSOR (desktop only)
+  ============================================================ -->
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-outline" id="cursorOutline" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       HEADER / NAVBAR
+  ============================================================ -->
+  <header id="mainHeader" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="nav-container">
+
+        <!-- Logo -->
+        <a href="#home" class="nav-logo" aria-label="G Events Tirupati — Home">
+          <span class="logo-g">G</span>
+          <div class="logo-text-block">
+            <span class="logo-title">EVENTS</span>
+            <span class="logo-sub">TIRUPATI</span>
+          </div>
+        </a>
+
+        <!-- Nav Links -->
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="#home"          class="nav-link" aria-label="Home">Home</a></li>
+          <li><a href="#about"         class="nav-link" aria-label="About us">About</a></li>
+          <li><a href="#services"      class="nav-link" aria-label="Our services">Services</a></li>
+          <li><a href="#gallery"       class="nav-link" aria-label="Gallery">Gallery</a></li>
+          <li><a href="#themes"        class="nav-link" aria-label="Themes">Themes</a></li>
+          <li><a href="#testimonials"  class="nav-link" aria-label="Testimonials">Reviews</a></li>
+          <li><a href="#contact"       class="nav-cta" aria-label="Book an event"><i class="fa-brands fa-whatsapp"></i> Book Now</a></li>
+        </ul>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero-section" id="home" aria-label="Hero banner">
+
+    <!-- Background Slideshow -->
+    <div class="hero-slideshow" aria-hidden="true">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=90');"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=90');"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=1200&q=90');"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1470753937643-efeb931202a9?w=1200&q=90');"></div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <!-- Floating Petals -->
+    <div class="petals-container" id="petalsContainer" aria-hidden="true"></div>
+
+    <!-- Content -->
+    <div class="hero-content">
+      <p class="hero-tagline animate-fade-up">✦ Tirupati's Premier Event Specialists ✦</p>
+      <h1 class="hero-title animate-fade-up delay-1">
+        We Craft<br />
+        <span class="gold-text script-font">Magical</span> Celebrations
+      </h1>
+      <p class="hero-sub animate-fade-up delay-2">Weddings · Birthdays · Haldi · Baby Showers · Engagements</p>
+      <div class="hero-buttons animate-fade-up delay-3">
+        <a href="#contact" class="btn btn-gold"><i class="fa-brands fa-whatsapp"></i> Plan My Event</a>
+        <a href="#gallery" class="btn btn-outline-light"><i class="fa-regular fa-images"></i> View Gallery</a>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"><span></span></div>
+    </div>
+
+    <!-- Slide Dots -->
+    <div class="slide-dots" role="tablist" aria-label="Hero slideshow navigation">
+      <button class="dot active" role="tab" aria-selected="true"  aria-label="Slide 1"></button>
+      <button class="dot"        role="tab" aria-selected="false" aria-label="Slide 2"></button>
+      <button class="dot"        role="tab" aria-selected="false" aria-label="Slide 3"></button>
+      <button class="dot"        role="tab" aria-selected="false" aria-label="Slide 4"></button>
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+       MARQUEE STRIP
+  ============================================================ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-inner">
+      <span>✦ Weddings</span><span>✦ Birthdays</span><span>✦ Haldi Ceremonies</span>
+      <span>✦ Baby Showers</span><span>✦ Engagements</span><span>✦ Anniversaries</span>
+      <span>✦ Sangeet Nights</span><span>✦ Corporate Events</span><span>✦ Naming Ceremonies</span>
+      <!-- Duplicate for seamless scroll -->
+      <span>✦ Weddings</span><span>✦ Birthdays</span><span>✦ Haldi Ceremonies</span>
+      <span>✦ Baby Showers</span><span>✦ Engagements</span><span>✦ Anniversaries</span>
+      <span>✦ Sangeet Nights</span><span>✦ Corporate Events</span><span>✦ Naming Ceremonies</span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       STATS SECTION
+  ============================================================ -->
+  <section class="stats-section" aria-label="Our achievements">
+    <div class="container">
+      <div class="stats-grid">
+
+        <div class="stat-item reveal-up">
+          <div class="stat-icon"><i class="fa-regular fa-calendar-check"></i></div>
+          <div>
+            <span class="stat-number" data-count="10">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <p class="stat-label">Years of Excellence</p>
+        </div>
+
+        <div class="stat-item reveal-up delay-1">
+          <div class="stat-icon"><i class="fa-regular fa-face-smile"></i></div>
+          <div>
+            <span class="stat-number" data-count="1000">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <p class="stat-label">Happy Clients</p>
+        </div>
+
+        <div class="stat-item reveal-up delay-2">
+          <div class="stat-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div>
+            <span class="stat-number" data-count="150">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <p class="stat-label">Unique Themes</p>
+        </div>
+
+        <div class="stat-item reveal-up delay-3">
+          <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
+          <div>
+            <span class="stat-number" data-count="100">0</span>
+            <span class="stat-plus">%</span>
+          </div>
+          <p class="stat-label">Client Satisfaction</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about-section section-padding" id="about" aria-label="About G Events Tirupati">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Images -->
+        <div class="about-images reveal-left">
+          <div class="about-badge">
+            <span class="badge-number">10+</span>
+            <span class="badge-text">Years of Magic</span>
+          </div>
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=90"
+                 alt="Stunning wedding decoration by G Events Tirupati"
+                 loading="lazy" />
+          </div>
+          <div class="about-img-float">
+            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=800&q=90"
+                 alt="Birthday celebration setup by G Events Tirupati"
+                 loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="about-content reveal-right">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">
+            Born From a Passion<br />
+            <span class="gold-text">for Celebration</span>
+          </h2>
+          <p class="about-lead">
+            G Events Tirupati has been the heartbeat of thousands of milestones across Tirupati and Andhra Pradesh for over a decade.
+          </p>
+          <p class="about-body">
+            Every birthday, every wedding, every haldi, every baby shower — each event is approached as a masterpiece. We blend creativity with precision, luxury with warmth, and tradition with modern elegance. Our dedicated team of designers, decorators, and coordinators ensure every moment is flawlessly executed, leaving you stress-free to soak in the joy.
+          </p>
+          <ul class="about-features">
+            <li><i class="fa-solid fa-check-circle"></i> From intimate gatherings to grand celebrations, we master every occasion</li>
+            <li><i class="fa-solid fa-check-circle"></i> In-house design team with custom concepts for every client</li>
+            <li><i class="fa-solid fa-check-circle"></i> End-to-end coordination — planning to final farewell</li>
+            <li><i class="fa-solid fa-check-circle"></i> Trusted by 1000+ families across Tirupati &amp; AP</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold"><i class="fa-brands fa-whatsapp"></i> Talk to Us</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <section class="services-section section-padding" id="services" aria-label="Our services">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Every Occasion, <span class="gold-text">Perfected</span></h2>
+        <p class="section-subtitle">From intimate gatherings to grand celebrations, we master every occasion with unmatched flair.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Wedding -->
+        <div class="service-card reveal-up">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=90"
+                 alt="Wedding decoration setup by G Events Tirupati"
+                 loading="lazy" />
+            <div class="service-overlay">
+              <a href="#contact" class="service-book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-rings-wedding"></i></div>
+            <h3>Weddings</h3>
+            <p>Grand mandap setups, floral arches, lighting magic, and end-to-end coordination for your most special day.</p>
+            <a href="#contact" class="service-link">Plan My Wedding <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Birthday -->
+        <div class="service-card reveal-up delay-1">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=1200&q=90"
+                 alt="Birthday party decoration by G Events Tirupati"
+                 loading="lazy" />
+            <div class="service-overlay">
+              <a href="#contact" class="service-book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-cake-candles"></i></div>
+            <h3>Birthdays</h3>
+            <p>Themed balloon setups, custom décor, photo booths, and entertainment packages for every age group.</p>
+            <a href="#contact" class="service-link">Plan My Birthday <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Haldi -->
+        <div class="service-card reveal-up delay-2">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200&q=90"
+                 alt="Haldi ceremony decoration by G Events Tirupati"
+                 loading="lazy" />
+            <div class="service-overlay">
+              <a href="#contact" class="service-book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-sun"></i></div>
+            <h3>Haldi Ceremony</h3>
+            <p>Vibrant marigold stages, ethnic backdrops, traditional props &amp; colourful setups that capture the essence of this cherished ritual.</p>
+            <a href="#contact" class="service-link">Plan My Haldi <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Baby Shower -->
+        <div class="service-card reveal-up">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1533483595632-c5f0e57a1936?w=1200&q=90"
+                 alt="Baby shower decoration by G Events Tirupati"
+                 loading="lazy" />
+            <div class="service-overlay">
+              <a href="#contact" class="service-book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
+            <h3>Baby Shower</h3>
+            <p>Soft pastel setups, gender reveal themes, cute props and heartwarming arrangements to welcome the little one.</p>
+            <a href="#contact" class="service-link">Plan Baby Shower <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Engagement -->
+        <div class="service-card reveal-up delay-1">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1200&q=90"
+                 alt="Engagement ceremony decoration by G Events Tirupati"
+                 loading="lazy" />
+            <div class="service-overlay">
+              <a href="#contact" class="service-book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-gem"></i></div>
+            <h3>Engagements</h3>
+            <p>Elegant ring ceremony setups with luxurious floral displays, themed lighting and bespoke stage designs.</p>
+            <a href="#contact" class="service-link">Plan Engagement <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Other Events -->
+        <div class="service-card reveal-up delay-2">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=90"
+                 alt="Corporate and other event decoration by G Events Tirupati"
+                 loading="lazy" />
+            <div class="service-overlay">
+              <a href="#contact" class="service-book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fa-solid fa-star"></i></div>
+            <h3>All Celebrations</h3>
+            <p>Sangeet nights, naming ceremonies, anniversaries, corporate events — we handle every celebration with the same passion.</p>
+            <a href="#contact" class="service-link">Plan My Event <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION
+  ============================================================ -->
+  <section class="gallery-section section-padding" id="gallery" aria-label="Event gallery">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">A Glimpse Into <span class="gold-text">Magic</span></h2>
+        <p class="section-subtitle">A glimpse into the magical worlds we create for our clients across Tirupati.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="gallery-filters" role="tablist" aria-label="Gallery filter">
+        <button class="filter-btn active" data-filter="all"         role="tab" aria-selected="true">All Events</button>
+        <button class="filter-btn"        data-filter="wedding"     role="tab" aria-selected="false">Weddings</button>
+        <button class="filter-btn"        data-filter="birthday"    role="tab" aria-selected="false">Birthdays</button>
+        <button class="filter-btn"        data-filter="haldi"       role="tab" aria-selected="false">Haldi</button>
+        <button class="filter-btn"        data-filter="babyshower"  role="tab" aria-selected="false">Baby Shower</button>
+        <button class="filter-btn"        data-filter="engagement"  role="tab" aria-selected="false">Engagement</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+
+        <div class="gallery-item wide" data-category="wedding">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=90" alt="Wedding decoration — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Wedding / Engagement</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item tall" data-category="haldi">
+          <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=90" alt="Haldi ceremony — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Haldi Ceremony</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="babyshower">
+          <img src="https://images.unsplash.com/photo-1533483595632-c5f0e57a1936?w=800&q=90" alt="Baby shower setup — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Baby Shower</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="birthday">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=90" alt="Birthday party — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Birthday Party</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item wide" data-category="wedding">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=90" alt="Wedding reception — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Wedding / Reception</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="birthday">
+          <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=800&q=90" alt="Birthday / Anniversary — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Birthday / Anniversary</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="engagement">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=90" alt="Engagement ceremony — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Engagement</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="haldi">
+          <img src="https://images.unsplash.com/photo-1470753937643-efeb931202a9?w=800&q=90" alt="Haldi decor — G Events Tirupati" loading="lazy" />
+          <div class="gallery-item-overlay">
+            <span>Haldi Decor</span>
+            <button class="gallery-zoom" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev"  id="lightboxPrev"  aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="lightbox-img-wrap">
+      <img src="" alt="Gallery image" id="lightboxImg" />
+      <p id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <!-- ============================================================
+       THEMES SECTION
+  ============================================================ -->
+  <section class="themes-section section-padding" id="themes" aria-label="Event themes">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Theme Gallery</span>
+        <h2 class="section-title">Pick Your <span class="gold-text">Dream Theme</span></h2>
+        <p class="section-subtitle">Pick a theme and send us a message — we'll turn it into reality, tailored just for you.</p>
+      </div>
+
+      <div class="themes-grid">
+
+        <div class="theme-card reveal-up">
+          <div class="theme-img">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=90" alt="Royal Wedding theme — G Events Tirupati" loading="lazy" />
+          </div>
+          <div class="theme-info">
+            <h3>Royal Wedding</h3>
+            <p>Wedding / Engagement</p>
+            <a href="#contact" class="theme-enquire-btn" data-theme="Royal Wedding Theme">
+              <i class="fa-brands fa-whatsapp"></i> Enquire Now
+            </a>
+          </div>
+        </div>
+
+        <div class="theme-card reveal-up delay-1">
+          <div class="theme-img">
+            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200&q=90" alt="Marigold Haldi theme — G Events Tirupati" loading="lazy" />
+          </div>
+          <div class="theme-info">
+            <h3>Marigold Haldi</h3>
+            <p>Haldi Ceremony</p>
+            <a href="#contact" class="theme-enquire-btn" data-theme="Marigold Haldi Theme">
+              <i class="fa-brands fa-whatsapp"></i> Enquire Now
+            </a>
+          </div>
+        </div>
+
+        <div class="theme-card reveal-up delay-2">
+          <div class="theme-img">
+            <img src="https://images.unsplash.com/photo-1533483595632-c5f0e57a1936?w=1200&q=90" alt="Pastel Baby Shower theme — G Events Tirupati" loading="lazy" />
+          </div>
+          <div class="theme-info">
+            <h3>Pastel Baby Shower</h3>
+            <p>Baby Shower</p>
+            <a href="#contact" class="theme-enquire-btn" data-theme="Pastel Baby Shower Theme">
+              <i class="fa-brands fa-whatsapp"></i> Enquire Now
+            </a>
+          </div>
+        </div>
+
+        <div class="theme-card reveal-up">
+          <div class="theme-img">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=1200&q=90" alt="Luxury Birthday theme — G Events Tirupati" loading="lazy" />
+          </div>
+          <div class="theme-info">
+            <h3>Luxury Birthday</h3>
+            <p>Birthday Party</p>
+            <a href="#contact" class="theme-enquire-btn" data-theme="Luxury Birthday Theme">
+              <i class="fa-brands fa-whatsapp"></i> Enquire Now
+            </a>
+          </div>
+        </div>
+
+        <div class="theme-card reveal-up delay-1">
+          <div class="theme-img">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=90" alt="Grand Reception theme — G Events Tirupati" loading="lazy" />
+          </div>
+          <div class="theme-info">
+            <h3>Grand Reception</h3>
+            <p>Wedding / Reception</p>
+            <a href="#contact" class="theme-enquire-btn" data-theme="Grand Reception Theme">
+              <i class="fa-brands fa-whatsapp"></i> Enquire Now
+            </a>
+          </div>
+        </div>
+
+        <div class="theme-card reveal-up delay-2">
+          <div class="theme-img">
+            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=1200&q=90" alt="Anniversary Gala theme — G Events Tirupati" loading="lazy" />
+          </div>
+          <div class="theme-info">
+            <h3>Anniversary Gala</h3>
+            <p>Birthday / Anniversary</p>
+            <a href="#contact" class="theme-enquire-btn" data-theme="Anniversary Gala Theme">
+              <i class="fa-brands fa-whatsapp"></i> Enquire Now
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT / BOOKING FORM SECTION
+  ============================================================ -->
+  <section class="contact-section section-padding" id="contact" aria-label="Contact and booking">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Plan Your <span class="gold-text">Perfect Event</span></h2>
+        <p class="section-subtitle">Fill in your details and we'll reach out to you on WhatsApp within minutes. Let's start crafting your perfect celebration!</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <h3 class="section-title" style="font-size:1.8rem;">We're Here<br /><span class="gold-text">For You</span></h3>
+          <p>From the first inquiry to the last detail, our team is always just a message away. Reach out and let's begin your celebration journey.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <span class="contact-detail-label">WhatsApp / Call</span>
+                <a href="tel:+919642474334" class="contact-detail-value">+91 96424 74334</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><i class="fa-regular fa-envelope"></i></div>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <a href="mailto:geventstirupati@gmail.com" class="contact-detail-value">geventstirupati@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="contact-detail-label">Location</span>
+                <span class="contact-detail-value">Tirupati, Andhra Pradesh</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><i class="fa-regular fa-clock"></i></div>
+              <div>
+                <span class="contact-detail-label">Working Hours</span>
+                <span class="contact-detail-value">Mon – Sun, 9 AM – 9 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/919642474334?text=Hello%20G%20Events%20Tirupati!%20I%20would%20like%20to%20enquire%20about%20your%20event%20services."
+             class="whatsapp-direct-btn"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Contact us on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="contact-form-wrap reveal-right">
+          <h3 class="form-title">📋 Book Your Event</h3>
+          <form id="bookingForm" novalidate autocomplete="on">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientName">Your Name *</label>
+                <input type="text" id="clientName" name="clientName"
+                       placeholder="e.g. Priya Sharma"
+                       required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="clientPhone">WhatsApp Number *</label>
+                <input type="tel" id="clientPhone" name="clientPhone"
+                       placeholder="e.g. 9876543210"
+                       required autocomplete="tel" maxlength="10" inputmode="numeric" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="eventType">Event Type *</label>
+                <select id="eventType" name="eventType" required>
+                  <option value="" disabled selected>Select Event</option>
+                  <option value="Wedding">Wedding</option>
+                  <option value="Birthday">Birthday</option>
+                  <option value="Haldi Ceremony">Haldi Ceremony</option>
+                  <option value="Baby Shower">Baby Shower</option>
+                  <option value="Engagement">Engagement</option>
+                  <option value="Anniversary">Anniversary</option>
+                  <option value="Sangeet">Sangeet</option>
+                  <option value="Naming Ceremony">Naming Ceremony</option>
+                  <option value="Corporate Event">Corporate Event</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="eventTheme">Preferred Theme</label>
+                <select id="eventTheme" name="eventTheme">
+                  <option value="" disabled selected>Choose a Theme</option>
+                  <option value="Royal Gold">Royal Gold</option>
+                  <option value="Floral Garden">Floral Garden</option>
+                  <option value="Rustic Boho">Rustic Boho</option>
+                  <option value="Pastel Dream">Pastel Dream</option>
+                  <option value="Marigold Traditional">Marigold Traditional</option>
+                  <option value="Luxury Dark">Luxury Dark</option>
+                  <option value="Fairy Lights">Fairy Lights</option>
+                  <option value="Unicorn / Kids">Unicorn / Kids</option>
+                  <option value="Custom Theme">Custom Theme</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="eventDate">Event Date *</label>
+                <input type="date" id="eventDate" name="eventDate" required />
+              </div>
+              <div class="form-group">
+                <label for="guestCount">Expected Guests</label>
+                <select id="guestCount" name="guestCount">
+                  <option value="" disabled selected>Select Range</option>
+                  <option value="Below 50">Below 50</option>
+                  <option value="50 – 100">50 – 100</option>
+                  <option value="100 – 200">100 – 200</option>
+                  <option value="200 – 500">200 – 500</option>
+                  <option value="500+">500+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="eventMessage">Additional Details</label>
+              <textarea id="eventMessage" name="eventMessage"
+                        placeholder="Tell us more about your vision, venue, or any special requirements..."
+                        rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-submit">
+              <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+            </button>
+            <p class="form-note">
+              <i class="fa-solid fa-lock" style="color:var(--gold);font-size:10px;"></i>
+              Your details are private and only shared with G Events Tirupati.
+            </p>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="testimonials-section section-padding" id="testimonials" aria-label="Client testimonials">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Happy Clients</span>
+        <h2 class="section-title">Words That <span class="gold-text">Warm Our Hearts</span></h2>
+        <p class="section-subtitle">The joy on our clients' faces is our greatest achievement.</p>
+      </div>
+
+      <div class="testimonials-slider" id="testimonialsSlider">
+
+        <div class="testimonial-slide active">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"G Events turned our wedding into a fairytale. Every single detail was perfect — from the floral arch to the lighting. Our guests are still talking about it! Truly the best in Tirupati."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">P</div>
+              <div>
+                <strong>Priya &amp; Rahul</strong>
+                <span>Wedding — Tirupati</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"My daughter's first birthday was absolutely magical! The unicorn theme they created was beyond our imagination. Professional, punctual and so creative. Highly recommended!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">S</div>
+              <div>
+                <strong>Sunitha Reddy</strong>
+                <span>Birthday Party — Tirupati</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"The haldi setup was gorgeous — marigolds everywhere, beautiful backdrops, and the whole vibe was just perfect. The team was so cooperative and delivered everything on time. 10/10!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">A</div>
+              <div>
+                <strong>Ananya Sharma</strong>
+                <span>Haldi Ceremony — Tirupati</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"They organised our baby shower and it was the most beautiful event. Pastel decorations, personalised touches, and smooth execution. G Events truly made us feel royal!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">M</div>
+              <div>
+                <strong>Meena Krishnan</strong>
+                <span>Baby Shower — Tirupati</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Booked G Events for our 25th anniversary party. The team was incredibly professional and the decoration was world-class. Everything was stress-free. Will definitely book again!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">V</div>
+              <div>
+                <strong>Venkat &amp; Lakshmi</strong>
+                <span>Anniversary — Tirupati</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Testimonial Navigation -->
+      <div class="testimonial-nav" aria-label="Testimonial navigation">
+        <button class="t-prev" id="tPrev" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="t-dots" role="tablist">
+          <button class="t-dot active" role="tab" aria-selected="true"  aria-label="Testimonial 1"></button>
+          <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+          <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+          <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 4"></button>
+          <button class="t-dot"        role="tab" aria-selected="false" aria-label="Testimonial 5"></button>
+        </div>
+        <button class="t-next" id="tNext" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE US SECTION
+  ============================================================ -->
+  <section class="why-section section-padding" aria-label="Why choose G Events Tirupati">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Why G Events</span>
+        <h2 class="section-title">What Makes Us <span class="gold-text">Different</span></h2>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card reveal-up">
+          <div class="why-icon"><i class="fa-solid fa-crown"></i></div>
+          <h3>Luxury at Every Budget</h3>
+          <p>We believe every celebration deserves the finest touch, regardless of the budget. Elegance is our standard.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-1">
+          <div class="why-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3>100% Custom Designs</h3>
+          <p>Our in-house design team crafts custom concepts that reflect your personality and vision — no two events are the same.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-2">
+          <div class="why-icon"><i class="fa-solid fa-medal"></i></div>
+          <h3>Proven Excellence</h3>
+          <p>A decade of flawless execution, 1000+ smiling clients and a reputation built on trust, quality and passion.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-3">
+          <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+          <h3>24/7 Support</h3>
+          <p>From planning to the final farewell, our dedicated coordinators are always a call or message away for you.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Brand -->
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo" aria-label="G Events Tirupati home">
+              <span class="logo-g" style="font-family:var(--font-serif);font-size:36px;background:var(--gold-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">G</span>
+              <div class="logo-text-block">
+                <span class="logo-title">EVENTS</span>
+                <span class="logo-sub">TIRUPATI</span>
+              </div>
+            </a>
+            <p class="footer-tagline">Tirupati's most trusted event specialists — crafting magical celebrations for over a decade.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Follow us on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://wa.me/919642474334" target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#" aria-label="Watch us on YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#themes">Themes</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#contact">Book Now</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <h4 class="footer-heading">Our Services</h4>
+            <ul class="footer-links">
+              <li><a href="#services">Weddings</a></li>
+              <li><a href="#services">Birthdays</a></li>
+              <li><a href="#services">Haldi Ceremony</a></li>
+              <li><a href="#services">Baby Shower</a></li>
+              <li><a href="#services">Engagements</a></li>
+              <li><a href="#services">Anniversaries</a></li>
+              <li><a href="#services">Corporate Events</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4 class="footer-heading">Contact Us</h4>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Tirupati, Andhra Pradesh, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+919642474334">+91 96424 74334</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:geventstirupati@gmail.com">geventstirupati@gmail.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-regular fa-clock"></i>
+              <span>Mon – Sun: 9 AM – 9 PM</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footerYear"></span> G Events Tirupati. All rights reserved. Crafted with ❤️ in Tirupati.</p>
+        <p class="footer-seo-text">Event Planner Tirupati | Wedding Decorator Tirupati | Birthday Party Organiser | Haldi Ceremony | Baby Shower | Engagement Planner Andhra Pradesh</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING WHATSAPP BUTTON
+  ============================================================ -->
+  <a href="https://wa.me/919642474334?text=Hello%20G%20Events%20Tirupati!%20I%20would%20like%20to%20enquire%20about%20your%20event%20planning%20services."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with us on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-float-text">Chat with Us</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
